@@ -7,11 +7,13 @@
     tools:context=".MainActivity">
 
     <com.llxodz.customviewtest.BottomButtonsView
+        android:id="@+id/bottomButtons"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         app:bottomProgressMode="false"
         app:bottomNegativeButtonText="Cancel"
         app:bottomPositiveButtonText="Ok"
+        app:bottomPositiveBackgroundColor="@color/purple_700"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
